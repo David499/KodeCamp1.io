@@ -1,0 +1,379 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.sectional{
+  padding: 80px 0;
+
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.right-section ul{
+  list-style: none;
+  display: flex;
+}
+
+.road-assistance{
+  display: flex;
+  padding-left: 20px;
+}
+
+.road-assistance .icon{
+  margin-right: 10px;
+}
+
+.right-section ul li{
+  margin-right: 20px;
+}
+
+.right-section ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.right-section .navigation{
+  border-right: 2px solid grey
+}
+
+}
+.flex{
+display: flex;
+justify-content: space-between;
+}
+
+.picture-header-section{
+  justify-content: flex-end;
+
+}
+
+.picture-header-section{
+  position: center;
+
+}
+
+.text-section h1{
+  font-size: 64px;
+
+}
+.orange-btn{
+  background: #ff6433;
+  padding: 16px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top:35px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.time-section{
+  display: flex;
+  margin-top: 100px;
+}
+
+.time-section .time-text{
+  width: 50px;
+
+}
+
+.text-section .time-text{
+  width: 350px;
+  margin-top: 0;
+  margin-left: 10px
+}
+
+#quote-section{
+  padding: 80px 0;
+  background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section{
+  width: 45%;
+}
+
+#quote-section ul li{
+  margin-bottom: 20px;
+}
+
+
+#quote-section ul{
+  list-style: none;
+}
+
+#quote-section .left-section h2{
+  margin-bottom: 30px;
+  font-size: 58px;
+
+}
+
+#quote-section .left-section .image-box{
+  width: 5%;
+  margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img{
+  width: 100%;
+}
+
+#quote-section .left-section .text-box{
+  width: 100%;
+}
+
+#quote-section .left-section .text-box h5{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3{
+  font-size: 48px;
+}
+
+#quote-section .right-form-section input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#process-section{
+  padding: 80px 0;
+
+}
+.flex{
+  display: flex;
+}
+
+#process-section .left-section, #process-section .right-section{
+  width: 45%;
+}
+
+#process-section .left-section h3{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+
+}
+
+#process-section .left-section p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.right-hand1, .right-hand2, .right-hand3{
+  display: flex;
+}
+
+#process-section .right-section h3{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+#process-section .right-text{
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+#process-section .right-text p{
+  margin-top: 18px;
+}
+
+.line1{
+  border: 1px dashed #FF6433;
+  transform: rotate(90deg);
+  margin-top: 50px;
+}
+
+.right-section2{
+  margin-right: 300px;
+}
+
+.right-section2 .right-hand2, .right-section2 .right-hand3{
+  margin-top:50px;
+}
+
+
+#offer-section{
+  padding: 80px 0;
+  background: #F2F2F2;
+  width: 100%;
+}
+
+#offer-section .offer-text{
+  text-align: center;
+}
+
+#offer-section .offer-text p{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#offer-section .offer-text h3{
+font-family: 'Manrope';
+font-weight: 800;
+font-size: 58px;
+line-height: 76px;
+}
+
+.panel1, .panel2, .panel3, .panel4 {
+  background: #FFFFFF;
+  width: 316px;
+  height: 232px;
+  margin: 8px;
+
+}
+
+#offer-section .offer-grid{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  position: absolute;
+  padding-top: 85px;
+  padding-left: 120px;
+}
+.item p{
+  position: absolute;
+  padding-top: 10px;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+
+#offer-section .panel{
+  background: #FF6433;
+  width: 316px;
+  height: 232px;
+  margin: 8px;
+}
+
+.learn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 360px;
+  padding-top: 50px;
+}
+
+.learn p{
+  margin-right: 30px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+}
+
+#CTA-section{
+  padding: 80px 150px;
+}
+
+.CTA-pix{
+  display: flex;
+
+}
+
+.CTA-pix-right{
+  width: 976px;
+  height: 502px;
+  background: url(https://i.postimg.cc/2yjwG0kq/car-parked.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#CTA-section .CTA-pix-right .text{
+  background: #FF6433;
+  width: 600px;
+  height: 502px;
+  margin-left: 280px;
+  padding-top: 15%;
+  text-align: center;
+  font-style: normal;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.CTA-pix-left{
+  width: 944px;
+  height: 502px;
+  background: url(https://i.postimg.cc/cC9LtLkK/car-with-clips.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.button{
+  padding: 16px 40px;
+  margin-right: 350px;
+  margin-top: 80px;
+  background: #1E1B1B;
+  border-radius: 12px;
+  color: white;
+}
+
+#CTA-section .CTA-experience{
+  display: flex;
+}
+
+#CTA-section .exp{
+  width: 1554px;
+  height: 200px;
+  background: #F2F2F2;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: #661CE7;
+  padding-top: 50px;
+}
+
+#CTA-section .exp p{
+font-size: 20px;
+color: black;
+}
+
+#brand-section{
+  padding: 80px 0;
+}
+#brand-section .brand-flex{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+
+
+}
+
+#brand-section .main-text{
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #1E1B1B;
+
+}
